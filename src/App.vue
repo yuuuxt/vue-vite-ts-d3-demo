@@ -5,12 +5,13 @@
 
 <script lang="ts">
 import {defineComponent} from 'vue'
+import d3ChartSample from "./components/d3ChartSample.vue";
 import d3Chart from "./components/d3Chart.vue";
 
 export default defineComponent({
   name: 'App',
   components: {
-    d3Chart
+    d3ChartSample, d3Chart
   }
 })
 </script>
